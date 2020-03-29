@@ -21,3 +21,4 @@ jQuery(function($) {
   $(window).trigger('scroll');
 
 });
+// end of java script

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<head>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+</head>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#parent").click(function(){
+			console.log("parent clicked");
+		});
+		$("#child").click(function(){
+			console.log("child clicked");
+		});
+	});
+</script>
+	<title></title>
+	<style type="text/css">
+		#parent{
+			border :1px solid black;
+			height: 30vh;
+			width: 50%; 
+		}
+	</style>
+</head>
+<body>
+<div id="main">
+	<div id="parent">
+		<button id="child">child
+		</button>
+		<button id="other">other
+		</button>
+	</div>
+</div>
+</body>
+</html>

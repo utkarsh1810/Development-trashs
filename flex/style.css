@@ -1,0 +1,48 @@
+.container > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
+}
+
+html, body {
+  background-color: #ffeead;
+  margin: 10px;
+  height: 100%;
+}
+
+.container > div:nth-child(1) {
+  background-color: #96ceb4;	
+}
+
+.container > div:nth-child(2) {
+  background-color: #ff6f69;
+}
+
+.container > div:nth-child(3) {
+  background-color: #88d8b0;
+}
+
+
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+ 
+  
+  /* flex-direction: row-reverse;  to allot a direction */
+ /* justify-content: space-between; special techniques like flex-end, space-evenly, space-around etc.*/
+}
+
+
+/* .container > div {
+  flex: 1;
+  flex is a combination of flex-strech , flex-basics, flex-shrink.
+}  should have to pass flex to a part instead to all of it. as below- */
+/* .container > .search {
+  flex: 2;
+} to change the size of a key with flex. */
+
+
+/* .logout {
+  margin-left: auto;
+} to allocate an item any where. */
